@@ -11,7 +11,7 @@ if (!loggedInUser) {
 
 async function loadUsers() {
   try {
-    const res = await fetch('http://127.0.0.1:5000/users');
+    const res = await fetch('https://skilllink-cls2.onrender.com/users');
     const users = await res.json();
 
     usersList.innerHTML = '';
@@ -48,7 +48,7 @@ async function loadUsers() {
         if (!offeredSkill || !requestedSkill) return;
 
         try {
-          const res = await fetch('http://127.0.0.1:5000/trades/request', {
+          const res = await fetch('https://skilllink-cls2.onrender.com/trades/request', {
             method: 'POST',
             headers: { 'Content-Type': 'application/json' },
             body: JSON.stringify({

@@ -9,7 +9,7 @@ if (!user) {
 
 async function loadTrades() {
   try {
-    const res = await fetch(`http://127.0.0.1:5000/trades/${user.email}`);
+    const res = await fetch(`https://skilllink-cls2.onrender.com/trades/${user.email}`);
     const trades = await res.json();
 
     if (!Array.isArray(trades) || trades.length === 0) {
@@ -57,7 +57,7 @@ async function loadTrades() {
 
 async function updateTradeStatus(tradeId, status) {
   try {
-    const res = await fetch(`http://127.0.0.1:5000/trades/${tradeId}/status`, {
+    const res = await fetch(`https://skilllink-cls2.onrender.com/trades/${tradeId}/status`, {
       method: 'PUT',
       headers: { 'Content-Type': 'application/json' },
       body: JSON.stringify({ status }),

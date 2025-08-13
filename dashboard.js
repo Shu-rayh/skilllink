@@ -20,7 +20,7 @@ if (!user) {
 // Load user skills from backend
 async function loadUserSkills() {
   try {
-    const res = await fetch('http://127.0.0.1:5000/users');
+    const res = await fetch('https://skilllink-cls2.onrender.com/users');
     const users = await res.json();
     const currentUser = users.find(u => u.email === user.email);
     if (!currentUser) {
@@ -58,7 +58,7 @@ addOfferForm.addEventListener('submit', async (e) => {
   if (!skill) return;
 
   try {
-    const res = await fetch('http://127.0.0.1:5000/skills/offer', {
+    const res = await fetch('https://skilllink-cls2.onrender.com/skills/offer', {
       method: 'POST',
       headers: { 'Content-Type': 'application/json' },
       body: JSON.stringify({ email: user.email, skill })
@@ -81,7 +81,7 @@ addNeedForm.addEventListener('submit', async (e) => {
   if (!skill) return;
 
   try {
-    const res = await fetch('http://127.0.0.1:5000/skills/need', {
+    const res = await fetch('https://skilllink-cls2.onrender.com/skills/need', {
       method: 'POST',
       headers: { 'Content-Type': 'application/json' },
       body: JSON.stringify({ email: user.email, skill })
