@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>SkillLink - Dashboard</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+    <script src="navbar.js" defer></script>  
+  <main class="container">
+    <h1>Welcome, <span id="userName">User</span>!</h1>
+
+    <section>
+      <h2>Your Skills Offered</h2>
+      <ul id="skillsOfferedList"></ul>
+      <form id="addOfferForm">
+        <input type="text" id="offerSkillInput" placeholder="Add skill you offer" required />
+        <button type="submit">Add</button>
+      </form>
+    </section>
+
+    <section>
+      <h2>Your Skills Needed</h2>
+      <ul id="skillsNeededList"></ul>
+      <form id="addNeedForm">
+        <input type="text" id="needSkillInput" placeholder="Add skill you need" required />
+        <button type="submit">Add</button>
+      </form>
+    </section>
+
+  </main>
+
+  <script src="dashboard.js"></script>
+</body>
+</html>
