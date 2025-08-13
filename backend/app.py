@@ -11,7 +11,7 @@ load_dotenv()
 
 from flask_cors import CORS
 app = Flask(__name__)
-CORS(app, origins=["https://skill-link1.netlify.app/login.html"])
+CORS(app, origins=["https://skill-link1.netlify.app"])
 bcrypt = Bcrypt(app)
 
 MONGO_URI = os.getenv("MONGO_URI")
