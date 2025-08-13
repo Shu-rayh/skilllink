@@ -9,8 +9,9 @@ from bson.objectid import ObjectId
 
 load_dotenv()
 
+from flask_cors import CORS
 app = Flask(__name__)
-CORS(app)
+CORS(app, origins=["https://skill-link1.netlify.app/login.html"])
 bcrypt = Bcrypt(app)
 
 MONGO_URI = os.getenv("MONGO_URI")
