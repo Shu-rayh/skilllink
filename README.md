@@ -6,12 +6,13 @@ SkillLink is a skill-trading platform where users can connect, offer their skill
 
 ##  Features
 
-- **User Registration & Login** â€“ Secure authentication with a connected backend.
-- **Browse Skills** â€“ See what other users are offering.
-- **Offer Skills** â€“ Add the skills youâ€™re willing to teach or share.
-- **Request Skills** â€“ Find and request skills you want to learn.
-- **Trade Requests** â€“ Match up with users for a mutual skill exchange.
-- **Responsive Design** â€“ Works on desktop and mobile devices.
+- **User Registration & Login**
+- Secure authentication with a connected backend.
+- **Browse Skills** See what other users are offering.
+- **Offer Skills** Add the skills youre willing to teach or share.
+- **Request Skills** Find and request skills you want to learn.
+- **Trade Requests** Match up with users for a mutual skill exchange.
+- **Responsive Design** Works on desktop and mobile devices.
 
 ---
 
@@ -65,10 +66,10 @@ The long-term vision for SkillLink is to build a platform where learners from th
 
 ## Contributing
 
-If youâ€™d like to contribute, feel free to fork the repo and submit a pull request with improvements.
+If youd like to contribute, feel free to fork the repo and submit a pull request with improvements.
 
 ---
 
 ## License
 
-This project is licensed under the MIT License â€” see the LICENSE file for details.
+This project is licensed under the MIT License see the LICENSE file for details.
