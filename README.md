@@ -4,7 +4,7 @@ SkillLink is a skill-trading platform where users can connect, offer their skill
 
 ---
 
-## ðŸš€ Features
+##  Features
 
 - **User Registration & Login** â€“ Secure authentication with a connected backend.
 - **Browse Skills** â€“ See what other users are offering.
@@ -15,7 +15,7 @@ SkillLink is a skill-trading platform where users can connect, offer their skill
 
 ---
 
-## ðŸŽ¯ Vision
+##  Vision
 
 The long-term vision for SkillLink is to build a platform where learners from the same school, grade, and subject choice can connect and help each other. This could be used for:
 
@@ -25,7 +25,7 @@ The long-term vision for SkillLink is to build a platform where learners from th
 
 ---
 
-## ðŸ› ï¸ Tech Stack
+## Tech Stack
 
 **Frontend:**
 - HTML, CSS, JavaScript (Vanilla)
@@ -40,7 +40,7 @@ The long-term vision for SkillLink is to build a platform where learners from th
 
 ---
 
-## ðŸ“¦ Installation & Setup
+## Installation & Setup
 
 1. **Clone the repository**
    ```bash
@@ -63,12 +63,12 @@ The long-term vision for SkillLink is to build a platform where learners from th
 
 ---
 
-## ðŸ¤ Contributing
+## Contributing
 
 If youâ€™d like to contribute, feel free to fork the repo and submit a pull request with improvements.
 
 ---
 
-## ðŸ“„ License
+## License
 
 This project is licensed under the MIT License â€” see the LICENSE file for details.
